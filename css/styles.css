@@ -1,0 +1,118 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #ffffff; /* White background */
+  color: #343a40;
+}
+
+.navbar-brand img {
+  width: 150px;
+  height: auto;
+}
+
+.navbar {
+  background-color: #008751; /* Green background for navbar */
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar-nav .nav-link {
+  color: white;
+}
+
+.home {
+  background: url('Assets/nigeria_banner.jpg') no-repeat center center;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.home h1 {
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.home p {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+section {
+  padding: 60px 0;
+}
+
+.about {
+  background-color: #ffffff; /* White background */
+}
+
+.eras {
+  background-color: #008751; /* Green background */
+  color: white; /* Text color white */
+}
+
+.leaders {
+  background-color: #ffffff; /* White background */
+}
+
+.events {
+  background-color: #008751; /* Green background */
+  color: white; /* Text color white */
+}
+
+.blog {
+  background-color: #ffffff; /* White background */
+}
+
+.contact {
+  background-color: #008751; /* Green background */
+  color: white; /* Text color white */
+}
+
+.contact label {
+  color: white; /* Text color white */
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+}
+
+h2 {
+  color: #343a40;
+  margin-bottom: 30px;
+}
+
+h3 {
+  color: #495057;
+}
+
+.btn-primary {
+  background-color: #008751; /* Green background for buttons */
+  border: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .home {
+    padding: 50px 0;
+  }
+
+  .home h1 {
+    font-size: 2rem;
+  }
+
+  .home p {
+    font-size: 1rem;
+  }
+}
